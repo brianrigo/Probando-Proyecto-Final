@@ -121,7 +121,7 @@ header {
     width: 48vh;
     margin: 10px;
     padding: 25px;
-    background-color: rgba(158, 158, 158, 0.137); }
+    background-color: #f5f5f5; }
     .div-cuadros .boxes:hover {
       transform: scale(1.1, 1.1); }
     .div-cuadros .boxes h2 {
@@ -148,7 +148,7 @@ header {
       width: 15%;
       align-self: center; }
       #container-general #ordenar-modal .modal-carrito i {
-        font-size: 1.2rem; }
+        font-size: 20px; }
     #container-general #ordenar-modal .table {
       text-align: center; }
     #container-general #ordenar-modal #gastoTotal {
@@ -192,11 +192,12 @@ header {
 
 .contacto_h2 {
   font-size: 20px;
-  color: #0d2033;
+  color: #f5f5f5;
   margin-right: 30px; }
 
 .contacto_h3 {
-  font-size: 16px; }
+  font-size: 16px;
+  color: #f5f5f5; }
 
 .main-contact {
   display: flex;
@@ -216,7 +217,7 @@ header {
 .contact {
   padding: .8rem;
   overflow: hidden;
-  color: white; }
+  color: #f5f5f5; }
 
 .contact label, .contact input, .contact textarea {
   display: block;
@@ -232,16 +233,16 @@ header {
   margin-bottom: 10px;
   font-size: 20px;
   outline: none;
-  color: gray; }
+  color: #444444; }
 
 .contact textarea {
   min-height: 100px; }
 
 input[type='submit'] {
   padding: 10px;
-  background: grey;
+  background: #444444;
   border: none;
-  color: white;
+  color: #f5f5f5;
   font-size: 20px;
   /* pointer-events: none; */
   cursor: pointer; }
@@ -268,7 +269,8 @@ input[type='submit'] {
   .section-carrito .form-carrito {
     width: 60%; }
     .section-carrito .form-carrito form h2 {
-      font-size: 1.2rem; }
+      font-size: 22px;
+      color: #f5f5f5; }
     .section-carrito .form-carrito form .botones {
       width: 100%; }
       .section-carrito .form-carrito form .botones:hover {
@@ -283,11 +285,11 @@ input[type='submit'] {
     margin-bottom: 50px; }
     .section-carrito .resumen-carrito table {
       background-color: rgba(158, 158, 158, 0.137);
-      color: #000100;
+      color: #f5f5f5;
       text-align: center;
       border-collapse: collapse; }
       .section-carrito .resumen-carrito table tr td {
-        font-size: 1.2rem;
+        font-size: 20px;
         padding: 15px; }
 
 /* ----------- SMARTPHONE ----------- */

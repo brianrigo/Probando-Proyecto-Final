@@ -17,7 +17,7 @@
     .contacto_h2{
 
         font-size: 20px;
-        color: #0d2033;
+        color: $white;
         margin-right: 30px;
 
 
@@ -26,7 +26,7 @@
     .contacto_h3 {
 
         font-size:16px;
-        
+        color: $white;
     }
     .main-contact {
 
@@ -52,7 +52,7 @@
     .contact {
         padding: .8rem;
         overflow: hidden;
-        color: rgb(255, 255, 255);
+        color: $white;
     }
     
     .contact label, .contact input, .contact textarea {
@@ -71,7 +71,7 @@
         margin-bottom: 10px;
         font-size: 20px;
         outline: none;
-        color: gray;
+        color:$grey;
     }
     
     .contact textarea {
@@ -80,9 +80,9 @@
     
     input[type='submit'] {
         padding: 10px;
-        background: grey;
+        background: $grey;
         border: none;
-        color: white;
+        color: $white;
         font-size: 20px;
         /* pointer-events: none; */
         cursor: pointer;

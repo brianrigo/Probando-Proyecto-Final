@@ -14,7 +14,8 @@
 
         form {
             h2 {
-                font-size: 1.2rem;
+                font-size: 22px;
+                color: $white;
             }
 
             .botones {
@@ -42,14 +43,15 @@
 
         table {
             background-color: $other;
-            color: $black;
+            color: $white;
             text-align: center;
             border-collapse: collapse;
 
             tr {
                 td {
-                    font-size: 1.2rem;
+                    font-size: 20px;
                     padding: 15px;
+                    
                 }
             }
         }
