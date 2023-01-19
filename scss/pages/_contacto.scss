@@ -1,0 +1,102 @@
+    /*::: PAGE CONTACTO :::*/
+
+    .contacto_div {
+        
+        display: flex;
+        width: 500px;
+        height: 100px;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 200px;
+        padding-top: 50px;
+        justify-content: flex-start;
+        align-content: flex-start;
+    }
+    
+    .contacto_h2{
+
+        font-size: 20px;
+        color: #0d2033;
+        margin-right: 30px;
+
+
+    }
+
+    .contacto_h3 {
+
+        font-size:16px;
+        
+    }
+    .main-contact {
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 100px;
+
+    }
+
+    .form-contact {
+
+        background: #004183f8;
+        width: 400px;
+        top: 50%;
+        left: 50%;
+        box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+        
+    }
+
+    .contact {
+        padding: .8rem;
+        overflow: hidden;
+        color: rgb(255, 255, 255);
+    }
+    
+    .contact label, .contact input, .contact textarea {
+        display: block;
+        width: 100%;
+        margin-bottom: 5px;   
+    }
+    
+    .contact label {
+        font-weight: 700;
+    }
+    
+    .contact input:not([type='submit']), .contact textarea {
+        border: none;
+        border-bottom: 2px solid #0d2033;
+        margin-bottom: 10px;
+        font-size: 20px;
+        outline: none;
+        color: gray;
+    }
+    
+    .contact textarea {
+        min-height: 100px;
+    }
+    
+    input[type='submit'] {
+        padding: 10px;
+        background: grey;
+        border: none;
+        color: white;
+        font-size: 20px;
+        /* pointer-events: none; */
+        cursor: pointer;
+    
+    }
+    .section-maps{
+
+        
+        border: solid #0d2033;
+        margin-right: 100px;
+    }
+    .maps {
+
+        max-width: auto;
+        max-height: 250px;
+
+    }

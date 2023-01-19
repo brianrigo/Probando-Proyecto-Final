@@ -1,0 +1,35 @@
+header {
+  background-color: #0d2033;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 15px 0px black;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.6rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  nav {
+    div {
+    display: flex;
+    justify-content: flex-end;
+
+    .logo_sinfondo  {
+        width: 150px;
+        height: 150px;
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+
+    a {
+      margin: 20px;
+    }
+  }
+}
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width: 2600px) {
+  nav{
+    height: 100px;
+  }
+}

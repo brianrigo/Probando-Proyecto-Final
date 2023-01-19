@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* === GENERAL === */
+body {
+  background-color: rgba(18, 8, 112, 0.98);
+  background-repeat: space repeat center;
+  font-family: "Oswald", sans-serif;
+}
+
+.botones {
+  font-size: 1rem;
+  font-family: oswald, sans-serif;
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  align-self: center;
+  color: white;
+  background-color: grey;
+}
+
+p {
+  margin: 0px;
+}
+
+ol,
+ul {
+  padding-left: 0px;
+}
