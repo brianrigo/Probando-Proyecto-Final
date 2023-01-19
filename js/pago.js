@@ -37,17 +37,17 @@ function validarFormulario() {
             $("#cod-postal").change(function () {
                 $("#error-codigopostal").fadeOut();
             });
-        } else if ($("#provincia").val() == "") {
+        } else if ($("#dpto").val() == "") {
             e.preventDefault();
-            $("#error-provincia").fadeIn();
-            $("#provincia").change(function () {
-                $("#error-provincia").fadeOut();
+            $("#error-dpto").fadeIn();
+            $("#dpto").change(function () {
+                $("#error-dpto").fadeOut();
             });
-        } else if ($("#localidad").val() == "") {
+        } else if ($("#ciudad").val() == "") {
             e.preventDefault();
-            $("#error-localidad").fadeIn();
-            $("#localidad").change(function () {
-                $("#error-localidad").fadeOut();
+            $("#error-ciudad").fadeIn();
+            $("#ciudad").change(function () {
+                $("#error-ciudad").fadeOut();
             });
         } else if ($("#metodo-envio").val() == "defecto") {
             e.preventDefault();
@@ -112,8 +112,8 @@ function validarFormulario() {
             datosCompra.push($("#telefono").val());
             datosCompra.push($("#direccion").val());
             datosCompra.push($("#cod-postal").val());
-            datosCompra.push($("#provincia").val());
-            datosCompra.push($("#localidad").val());
+            datosCompra.push($("#dpto").val());
+            datosCompra.push($("#ciudad").val());
             datosCompra.push($("#metodo-envio").val());
             datosCompra.push($("#metodo-pago").val());
 

@@ -14,15 +14,14 @@
 
         form {
             h2 {
-                font-size: 20px;
-                color: white;
+                font-size: 1.2rem;
             }
 
             .botones {
                 width: 100%;
 
                 &:hover {
-                    color: rgb(11, 242, 250);
+                    color: $white;
                 }
             }
 
@@ -42,8 +41,8 @@
         margin-bottom: 50px;
 
         table {
-            background-color: aliceblue;
-            color: black;
+            background-color: $other;
+            color: $black;
             text-align: center;
             border-collapse: collapse;
 

@@ -1,7 +1,6 @@
 /* MISC */
 
 @import './misc/general';
-@import './misc/mediaqueries';
 
 /* PARTIALS */
 
@@ -19,6 +18,10 @@
 /* CONTACTO */
 
 @import './pages/contacto';
+
+/* PAGO */
+
+@import './pages/pago';
 
 
 @import './misc/mediaqueries';
