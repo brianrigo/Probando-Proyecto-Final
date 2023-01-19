@@ -3,7 +3,7 @@
     "tipo": "Buzo",
     "nombre": "Canguro Kelme - Negro",
     "precio": 2750,
-    "foto": "../media/products/1.png"
+    "foto": "./media/products/1.png"
     }, {
         "id": 2,
         "tipo": "Buzo",
