@@ -31,7 +31,7 @@ function validarFormulario() {
             $("#direccion").change(function () {
                 $("#error-direccion").fadeOut();
             });
-        } else if (($("#cod-postal").val() == "") || ($("#cod-postal").val().length != 4)) {
+        } else if (($("#cod-postal").val() == "") || ($("#cod-postal").val().length != 5)) {
             e.preventDefault();
             $("#error-codigopostal").fadeIn();
             $("#cod-postal").change(function () {
